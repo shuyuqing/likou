@@ -62,3 +62,13 @@ p=Solution()
 l=p.twoSum(l,target)
 print(l)
 
+# 参考
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+#         nums_dict = {}
+#         for i, num in enumerate(nums):
+#             if target-num in nums_dict:
+#                 return [i, nums_dict.get(target-num)]
+#             if not nums_dict.get(num):
+#                 nums_dict[num] = i
+
