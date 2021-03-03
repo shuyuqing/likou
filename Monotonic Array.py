@@ -32,3 +32,17 @@ class Solution:
 l=[1,2,2,2]
 p=Solution()
 print(p.isMonotonic(l))
+
+#参考
+# class Solution:
+#     def isMonotonic(self, A: List[int]) -> bool:
+#         if len(A)==1:
+#             return True
+#         B=A.copy()
+#         A.sort()
+#         if B==A:
+#             return True
+#         A.reverse()
+#         if B==A:
+#             return True
+#         return False
